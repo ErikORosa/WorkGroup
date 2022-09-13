@@ -1,0 +1,120 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+/* .logo_inicio 
+    {
+        margin-left: 10px;
+    } */
+#logo 
+{
+    padding-right: 10px;
+    height: 70px;
+    width: 50%;
+}
+
+.nav-bar 
+{
+    list-style: none;
+    padding: 0%;
+    background-color: rgb(4, 17, 32);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bar li
+{
+    display: inline;
+}
+
+.nav-bar li a
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    transition: background .6s;
+
+}
+
+.nav-bar li a:hover 
+{
+    background-color:#6c9ec1;
+    position: relative;
+}
+.links li
+{
+    display: inline-block;
+    margin: auto;
+}
+.links ul 
+{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.banner 
+{
+    position: absolute;
+
+}
+
+.div-workmotor 
+{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -1305px;
+    background-color: #6c9ec1;
+    filter: grayscale(50px);
+    border-radius: 30%;
+    right: -500px ;
+    
+}
+
+.div-osdigital 
+{
+    width: 450px;
+    height: 450px;
+    position:relative;
+    top: -1750px;
+    background-color: #6c9ec1;
+    filter:grayscale(50px);
+    border-radius: 30%;
+    right: -2250px;
+}
+
+a 
+{
+    color: black;
+    position: relative;
+    top: -2000;
+}
+.link-workmotor
+{
+    height: 500px;
+    position: relative;
+    background-color: red;
+    top: -10000px;
+}
+
+.link-osdigital
+{
+    position: relative;
+}
+
+/* .workg 
+{
+    background-color: red;
+    position: relative;
+    height: 500px;
+    display:flex;
+}
+
+.rodape 
+{
+    display: flex;
+    background-color: black;
+    
+} */
